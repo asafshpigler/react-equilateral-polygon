@@ -1,0 +1,9 @@
+.equilateral-polygon-svg {
+  overflow: visible;
+}
+
+.equilateral-polygon-polygon {
+  fill: none;
+  stroke: limegreen;
+  stroke-width: 5px;
+}

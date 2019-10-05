@@ -1,0 +1,17 @@
+# Source Code
+src
+
+# Dependencies
+node_modules
+
+# Build
+.cache
+
+# Config
+.babelrc
+.gitignore
+package-lock.json
+
+# Test
+__test__
+__mocks__

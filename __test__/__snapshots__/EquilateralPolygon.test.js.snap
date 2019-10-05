@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EquilateralPolygon component is rendered 1`] = `
+<svg
+  class="equilateral-polygon-svg"
+  style={
+    Object {
+      "height": 50,
+      "width": 50,
+    }
+  }
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <polygon
+    class="equilateral-polygon-polygon"
+    points="25.00,0.00 46.65,37.50 3.35,37.50"
+  />
+</svg>
+`;

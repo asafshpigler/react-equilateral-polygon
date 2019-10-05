@@ -1,0 +1,41 @@
+{
+  "name": "react-equilateral-polygon",
+  "version": "1.0.0",
+  "description": "A React component that renders an equilateral polygon based on it's sides count",
+  "author": {
+    "name": "Asaf Shpigler",
+    "email": "shpiglerdev@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asafshpigler/react-equilateral-polygon"
+  },
+  "main": "./dist/EquilateralPolygon.js",
+  "scripts": {
+    "test": "node_modules/.bin/jest ./__test__/*.test*",
+    "build": "parcel build ./src/EquilateralPolygon.js --no-source-maps"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "http-server": "^0.11.1",
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-test-renderer": "^16.10.2"
+  },
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.css$": "<rootDir>/__mocks__/styleMock.js"
+    }
+  }
+}
