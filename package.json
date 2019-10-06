@@ -1,6 +1,6 @@
 {
   "name": "react-equilateral-polygon",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A React component that renders an equilateral polygon based on it's sides count",
   "author": {
     "name": "Asaf Shpigler",
