@@ -43,11 +43,11 @@ class EquilateralPolygon extends Component {
     return points && (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="equilateral-polygon-svg"
+        className="equilateral-polygon-svg"
         style={{ height: size, width: size }}
       >
         <polygon
-          class="equilateral-polygon-polygon"
+          className="equilateral-polygon-polygon"
           points={points}
         />
       </svg>
