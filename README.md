@@ -1,10 +1,8 @@
-#Equilateral Polygon
+# Equilateral Polygon
 
-A component for rendering an Equilateral Polygon based on amount of sides
+A React component for rendering an Equilateral Polygon
 
 ## Installation
-
-Using the package manager [npm](http://npmjs.com).
 
 ```bash
 npm i react-equilateral-polygon
